@@ -14,7 +14,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,FormsModule, ReactiveFormsModule
   ],
-  providers: [detailsservice],
+  providers: [signupservice],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
